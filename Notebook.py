@@ -50,4 +50,8 @@ else:
 
 # COMMAND ----------
 
+# MAGIC %fs ls
+
+# COMMAND ----------
+
 
