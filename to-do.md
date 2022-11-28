@@ -4,8 +4,14 @@
 - Query json, array
 - checkpoint & WAL
 - jobs
+- tracking state of continuous spark streaming
+- and instead of && and or instead of || used in the if statement
 
 ## Read it later
+
+**Query semistructed data**
+https://docs.databricks.com/optimizations/semi-structured.html
+https://docs.microsoft.com/en-us/azure/databricks/sql/language-manual/functions/from_json
 
 **When to use Auto Loader, COPY INTO, INSERT OVERWRITE**
 When to use COPY INTO
@@ -40,6 +46,7 @@ https://learn.microsoft.com/en-us/azure/databricks/spark/latest/spark-sql/langua
 **Table ACL privileges**
 https://learn.microsoft.com/en-us/azure/databricks/security/access-control/table-acls/object-privileges#privileges
 https://docs.microsoft.com/en-us/azure/databricks/security/access-control/table-acls/object-privileges
+https://docs.microsoft.com/en-us/azure/databricks/security/access-control/table-acls/object-privileges#dynamic-view-functions
 
 **Comparisons between Spark Cache vs Delta Cache**
 https://docs.databricks.com/delta/optimizations/delta-cache.html 
@@ -52,3 +59,15 @@ Managed table: Upgrade a managed to Unity Catalog
 https://docs.microsoft.com/en-us/azure/databricks/data-governance/unity-catalog/migrate#--upgrade-a-table-to-unity-catalog
 External table:  Upgrade an external table to Unity Catalog
 https://docs.microsoft.com/en-us/azure/databricks/data-governance/unity-catalog/migrate#--upgrade-an-external-table-to-unity-catalog
+
+**Query filters | Databricks on AWS**
+https://docs.databricks.com/sql/user/queries/query-filters.html
+
+**SQL configuration parameters | Databricks on AWS**
+https://docs.databricks.com/sql/admin/sql-configuration-parameters.html
+
+**Table properties and table options (Databricks SQL) | Databricks on AWS**
+https://docs.databricks.com/sql/language-manual/sql-ref-syntax-ddl-tblproperties.html#common-tblproperties-and-options-keys
+
+
+https://docs.databricks.com/notebooks/widgets.html
