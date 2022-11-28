@@ -1,6 +1,6 @@
 ## Topics for revision
 - Jobs
-- VACUUM, OPTIMZE, Index
+- VACUUM, OPTIMZE, Zorder & Bloom Filter
 - Query json, array
 - checkpoint & WAL
 - jobs
@@ -32,9 +32,23 @@ https://docs.microsoft.com/en-us/azure/databricks/data-engineering/delta-live-ta
 
 **Jobs in Databricks**
 https://docs.databricks.com/data-engineering/jobs/jobs.html#run-a-job
+https://docs.microsoft.com/en-us/azure/databricks/data-engineering/jobs/jobs#timeout
 
 **Unity Catalog Privileges**
 https://learn.microsoft.com/en-us/azure/databricks/spark/latest/spark-sql/language-manual/sql-ref-privileges#privilege-types
 
 **Table ACL privileges**
 https://learn.microsoft.com/en-us/azure/databricks/security/access-control/table-acls/object-privileges#privileges
+https://docs.microsoft.com/en-us/azure/databricks/security/access-control/table-acls/object-privileges
+
+**Comparisons between Spark Cache vs Delta Cache**
+https://docs.databricks.com/delta/optimizations/delta-cache.html 
+
+**Delta Live Table Pipeline Mode**
+https://docs.microsoft.com/en-us/azure/databricks/data-engineering/delta-live-tables/delta-live-tables-concepts#--continuous-and-triggered-pipelines
+
+**Upgrade external and managed tables from hive_metastore to unitycatalog**
+Managed table: Upgrade a managed to Unity Catalog
+https://docs.microsoft.com/en-us/azure/databricks/data-governance/unity-catalog/migrate#--upgrade-a-table-to-unity-catalog
+External table:  Upgrade an external table to Unity Catalog
+https://docs.microsoft.com/en-us/azure/databricks/data-governance/unity-catalog/migrate#--upgrade-an-external-table-to-unity-catalog
