@@ -71,3 +71,8 @@ https://docs.databricks.com/sql/language-manual/sql-ref-syntax-ddl-tblproperties
 
 
 https://docs.databricks.com/notebooks/widgets.html
+
+
+## I am struggling to understand
+[What is Z-ordering?](https://docs.databricks.com/delta/data-skipping.html#what-is-z-ordering)
+If you expect a column to be commonly used in query predicates and if that __column has high cardinality__ (that is, a large number of distinct values), then use ZORDER BY.
